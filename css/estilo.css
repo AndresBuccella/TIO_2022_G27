@@ -35,6 +35,8 @@ a:link{
     transition: .5s all ease;
 }
 
+
+
 footer{
     background-color: rgb(65, 65, 65);
     color: white;
@@ -51,12 +53,12 @@ footer{
 
 .principal{
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 50px;
     width: 78%;
 }
 
 .nombreseccion{
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     margin-top: 40px;
 }
@@ -68,7 +70,7 @@ footer{
 .propaganda{
     margin-top: 10px;
     margin-left: 5px;
-    width: 19%;  
+    width: 19%;
 }
 
 
@@ -76,8 +78,7 @@ footer{
 mark{
     background-color: rgb(218, 218, 218);
     padding: 4px;
-    padding-left: 100px;
-    padding-right: 15px;
+    padding: 5px 15px;
 }
 
 
