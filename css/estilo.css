@@ -38,13 +38,20 @@ a:link{
 
 
 footer{
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(255, 230, 0);
     color: white;
     padding: 13px;
     margin-top: 5px;
     width: 100%;
     display: flex ;
     justify-content: center;
+}
+
+footer > p{
+    color: black;
+}
+footer > p > span{
+    color: rgb(104, 93, 0);
 }
 
 .contenedor{
