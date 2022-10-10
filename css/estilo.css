@@ -27,19 +27,22 @@ a:link{
     color: white;
     text-transform:uppercase;
     padding: 15px;
+    transition: .5s all ease;
   }
   
 .item:hover {
     background: rgb(0, 128, 96);
+    transition: .5s all ease;
 }
 
 footer{
     background-color: rgb(65, 65, 65);
     color: white;
-    text-align: left;
     padding: 13px;
     margin-top: 5px;
-    width: 96%;
+    width: 100%;
+    display: flex ;
+    justify-content: center;
 }
 
 .contenedor{
@@ -103,8 +106,6 @@ form{
 
 p{
     color: aliceblue ;
-    margin-left: 10px;
-    width: 700px;
 }
 
 .contenedorestreno{
