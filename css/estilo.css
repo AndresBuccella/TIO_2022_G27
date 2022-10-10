@@ -1,0 +1,197 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a:link{
+    text-decoration:none;
+}
+
+.navegacion {
+    display: flex;
+    background: rgb(34, 34, 34);
+    border-bottom: 10px solid rgb(255, 230, 0);
+    justify-content: center;
+}
+  
+.item {
+    
+    list-style: none;
+    margin: 0px 10px;
+    color: white;
+    text-transform:uppercase;
+    padding: 15px;
+  }
+  
+.item:hover {
+    background: rgb(0, 128, 96);
+}
+
+footer{
+    background-color: rgb(65, 65, 65);
+    color: white;
+    text-align: left;
+    padding: 13px;
+    margin-top: 5px;
+    width: 96%;
+}
+
+.contenedor{
+    display: flex;
+}
+
+.principal{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 78%;
+}
+
+.nombreseccion{
+    text-align: left;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.imgcartelera{
+   margin: 20px;
+}
+
+.propaganda{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 19%;  
+}
+
+
+
+mark{
+    background-color: rgb(218, 218, 218);
+    padding: 4px;
+    padding-left: 100px;
+    padding-right: 15px;
+}
+
+
+.registrarse{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 78%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.cajainput{
+    margin-top: 10px;
+    width: 300px;
+}
+
+.sinopsis{
+    color: aliceblue ;
+    margin-left: 25px;
+    width: 650px;
+}
+
+p{
+    color: aliceblue ;
+    margin-left: 10px;
+    width: 700px;
+}
+
+.contenedorestreno{
+    display: flex;
+    margin-top: 30px;
+    border-bottom: rgb(202, 202, 202) 5px solid;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+}
+
+
+li{
+    color: rgb(255, 200, 128);
+    
+}
+
+th{
+    background-color: rgb(92, 189, 156);
+    color: white;
+    padding-right: 30px;
+  
+}
+
+tbody{
+    color: white;
+}
+
+table, tr, td {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+
+table{
+    width: 78%;
+    height: 40%;
+    text-align: center;
+    margin-left: 90px;
+    background-color: rgb(97, 49, 141);
+}
+
+label{
+    color: white;
+    margin-top: 40px;
+   
+}
+
+#screenrandom{
+    font-family:monospace;
+    color: rgb(111, 255, 15);
+    font-size: 20px;
+}
+#captcha{
+    width: 300px;
+    margin-top: 10px;
+}
+
+#btn{
+width: 150px;
+margin-top: 10px;
+}
+
+#resultado{
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+h3{
+    color: white;
+    margin-left: 20px;
+}
+
+.horarios{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 98%;
+    background-color: rgb(17, 17, 17);
+   
+}
+
+.contenedorhorario{
+    width: 25%;
+}
+
+
