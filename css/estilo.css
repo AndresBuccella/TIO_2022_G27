@@ -27,10 +27,12 @@ a:link{
     color: white;
     text-transform:uppercase;
     padding: 15px;
+    transition: .5s all ease;
   }
   
 .item:hover {
     background: rgb(0, 128, 96);
+    transition: .5s all ease;
 }
 
 footer{
