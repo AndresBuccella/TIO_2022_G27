@@ -194,4 +194,25 @@ h3{
     width: 25%;
 }
 
+.menuHamburguesa{
+    background-color: white;
+    display: none;
+}
 
+
+@media (max-width: 600px) {
+
+    header{
+        display: flex;
+    }
+    .menuHamburguesa{
+        display: initial;
+        width: 40%;
+    }
+    .oculto{
+        display: none;
+    }
+    .navegacion{
+        border: 0px;
+    }
+}
