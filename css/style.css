@@ -32,7 +32,7 @@ a:link{
   }
   
 .item:hover {
-    background: rgb(0, 128, 96);
+    background: rgb(128, 0, 122);
     transition: .5s all ease;
 }
 
