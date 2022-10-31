@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Tandil</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo"src="img/logo.png" alt="logo">
+    </header>
+    
+    <nav>
+        <ul class="navegacion">
+            <a href="index.html"><li class="item">Home</li></a>
+            <a href="estrenos.html"><li class="item">Proximos Estrenos</li></a>
+            <a href="combos.html"><li class="item">Combos</li></a>
+            <a href="registrarse.html"><li class="item">Registrarse</li></a>
+        </ul>
+    </nav>  
+    
+    <h1 class="nombreseccion"><mark>REGISTRARSE</mark></h1>
+    
+    <div class="contenedor">
+        
+        <div class="registrarse">
+             <p>Crea una cuenta CINEMATANDIL para obtener descuentos y promociones!</p>
+                <form>
+                    <input class="cajainput" id="nombre" type="text" name="nombre" placeholder="Nombre *Obligatorio*"/>    
+                    <input class="cajainput" id="apellido" type="text" name="apellido" placeholder="Apellido *Obligatorio*"/>   
+                    <input class="cajainput" type="text" name="edad" placeholder="Edad"/>  
+                    <input class="cajainput" id="mail" type="text" name="mail" placeholder="Mail *Obligatorio*"/>
+                    <input class="cajainput" type="text" name="telefono" placeholder="Teléfono"/>
+                    
+                    <label for="">Para validar ingrese el siguiente número</label>
+                    <p id="screenrandom"></p>
+                    <input type="text" id="captcha">
+                    <input id="btn" type="button" value="Enviar">   
+                
+                </form>
+                <p id="mensaje"></p>
+        
+        </div>
+
+       
+        <div class="propaganda">
+            <img src="img/promo1.jpg" alt="promo">
+            <img src="img/promo2.jpg" alt="promo">
+            <img src="img/promo3.jpg" alt="promo">
+        </div>
+    </div>
+    
+ 
+
+    
+    
+    
+    
+    <footer>
+        <p> © Copyright <span>CinemaTandil</span> Argentina. Todos los derechos reservados.</p>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

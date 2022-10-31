@@ -1,6 +1,7 @@
 .logo{
     display: block;
     margin: auto;
+    
 }
 
 body{
@@ -47,6 +48,13 @@ footer{
     width: 100%;
     display: flex ;
     justify-content: center;
+}
+
+footer > p{
+    color: black;
+}
+footer > p > span{
+    color: rgb(104, 93, 0);
 }
 
 .contenedor{
