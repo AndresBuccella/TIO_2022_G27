@@ -18,7 +18,7 @@ a:link{
 .navegacion {
     display: flex;
     background: rgb(34, 34, 34);
-    border-bottom: 10px solid rgb(255, 230, 0);
+    border-bottom: 10px solid rgba(255, 230, 0, 0.938);
     justify-content: center;
     flex-direction: row;
 }
