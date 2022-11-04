@@ -2,7 +2,7 @@ let enviar=document.querySelector("#btn");
 let caprandom=Math.floor(Math.random() * 10000) ;
 screenrandom.innerHTML = caprandom;
 
-
+console.log("asd");
 enviar.addEventListener("click",function(){
   let resultado= document.querySelector("#mensaje");
   let inputCaptcha = document.querySelector("#captcha");
